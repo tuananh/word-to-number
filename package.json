@@ -1,8 +1,10 @@
 {
   "name": "word-to-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert written words to number",
   "main": "index.js",
+  "homepage": "https://github.com/tuananh/word-to-number",
+  "bugs": "https://github.com/tuananh/word-to-number/issues",
   "scripts": {
     "test": "mocha --timeout 200 --reporter spec test/*.js"
   },
@@ -12,6 +14,7 @@
     "written",
     "words"
   ],
+  "repository": "tuananh/word-to-number",
   "author": "Tuan Anh Tran",
   "license": "MIT",
   "dependencies": {

@@ -6,7 +6,7 @@ convert written english words to number
 
     let convertWordToNumber = require('word-to-number').convertWordToNumber
 
-    convertWordToNumber('one thousand one hundred and thirty one')
+    convertWordToNumber('two billion three hundred sixty one million fifty three thousand and seven hundred ninety nine')
     .then(console.log)
 
-    > 1131
+    > 2361053799
